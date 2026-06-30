@@ -30,8 +30,6 @@
     </linearGradient>
   </defs>
 
-  <rect x="-120" y="-120" width="240" height="240" fill="#0f0f0f"/>
-
   <!-- Play keyline: artwork inside 66% diameter circle (round mask safe zone) -->
   <g transform="scale(0.7727) translate(0 1.44)">
     <!-- Top face (S) -->
