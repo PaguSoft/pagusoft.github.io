@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="-120 -120 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Face fills -->
+    <linearGradient id="gradTop" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#8BB0D8"/>
+      <stop offset="100%" stop-color="#6A97C7"/>
+    </linearGradient>
+    <linearGradient id="gradLeft" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#14365C"/>
+      <stop offset="100%" stop-color="#0B2038"/>
+    </linearGradient>
+    <linearGradient id="gradRight" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0A5239"/>
+      <stop offset="100%" stop-color="#043021"/>
+    </linearGradient>
+
+    <!-- Letter strokes (objectBoundingBox = Inkscape-safe export) -->
+    <linearGradient id="lightTop" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D9DDF0"/>
+    </linearGradient>
+    <linearGradient id="lightLeft" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#4DD0E1"/>
+      <stop offset="100%" stop-color="#00ACC1"/>
+    </linearGradient>
+    <linearGradient id="lightRight" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#33FF88"/>
+      <stop offset="100%" stop-color="#00CC52"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Play keyline: artwork inside 66% diameter circle (round mask safe zone) -->
+  <g transform="scale(0.7727) translate(0 1.44)">
+    <!-- Top face (S) -->
+    <g transform="matrix(0.866 0.5 -0.866 0.5 0 -101.77)">
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="url(#gradTop)" opacity="0.95"/>
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="none" stroke="#8BB0D8" stroke-width="1" opacity="0.6"/>
+      <g transform="translate(7.2 7.2) scale(0.85)">
+        <path d="M 78 28 A 10 10 0 0 0 68 18 L 28 18 A 10 10 0 0 0 18 28 L 18 38 A 10 10 0 0 0 28 48 L 68 48 A 10 10 0 0 1 78 58 L 78 68 A 10 10 0 0 1 68 78 L 28 78 A 10 10 0 0 1 18 68" fill="none" stroke="url(#lightTop)" stroke-width="11.76" stroke-linejoin="round" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Left face (P) -->
+    <g transform="matrix(0.866 0.5 0 1 -88.14 -45.11)">
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="url(#gradLeft)" opacity="0.95"/>
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="none" stroke="#22538B" stroke-width="1" opacity="0.6"/>
+      <g transform="translate(7.2 7.2) scale(0.85)">
+        <path d="M 18 78 L 18 18 L 58 18 A 20 20 0 0 1 58 58 L 18 58" fill="none" stroke="url(#lightLeft)" stroke-width="11.76" stroke-linejoin="round" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Right face (G) -->
+    <g transform="matrix(0.866 -0.5 0 1 5 2.89)">
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="url(#gradRight)" opacity="0.95"/>
+      <rect x="0" y="0" width="96" height="96" rx="14" fill="none" stroke="#34D399" stroke-width="1" opacity="0.4"/>
+      <g transform="translate(7.2 7.2) scale(0.85)">
+        <path d="M 78 28 A 10 10 0 0 0 68 18 L 28 18 A 10 10 0 0 0 18 28 L 18 68 A 10 10 0 0 0 28 78 L 68 78 A 10 10 0 0 0 78 68 L 78 48 L 48 48" fill="none" stroke="url(#lightRight)" stroke-width="11.76" stroke-linejoin="round" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
