@@ -1,0 +1,12 @@
+---
+description: Require explicit user approval before any git push
+alwaysApply: true
+---
+
+# Git Push — Explicit Approval Required
+
+NEVER run `git push` (or any variant: `--force`, `-u`, `--tags`, etc.) unless the user has **explicitly said so in the current message** with words like "pusha", "push", "pushiamo", "push it", or similar.
+
+- Commit freely when asked.
+- Stage and prepare the push command if useful, but always stop and wait for the user's go-ahead before executing it.
+- If in doubt, ask: "Vuoi che pusho?"
