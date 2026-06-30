@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Internal docs (local only, not for version control)
+docs_internal/
